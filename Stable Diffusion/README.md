@@ -1,7 +1,7 @@
 # Stable Diffusion Pipeline Using Implementation
 In this tutorial, a stable diffusion pipeline is implemented using a Triton Inference Server. We will be using deeplearning models from different framework and use them together on a Triton Inference Server.
 The flowchart for the complete implementation is given as
-![stable diffusion flowchart](/img/multiple_backends.PNG)
+![stable diffusion flowchart](img/multiple_backends.PNG)
 
 # Requirement
 ## 1. Docker should be installed
@@ -70,6 +70,6 @@ python3 client.py --triton_url="localhost:8001"
 ```
 ## 5. Results
 1. Input Prompt: Pikachu with a hat, 4k, 3d render
-![result1](/img/res1.png)
+![result1](img/res1.png)
 2. Input Prompt: Realistic Human Sketch
-![result2](/img/res2.png)
+![result2](img/res2.png)
