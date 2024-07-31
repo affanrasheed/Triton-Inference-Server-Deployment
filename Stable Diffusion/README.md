@@ -52,7 +52,7 @@ Now we will lauch the Triton Inference Server
 ```bash
 tritonserver --model-repository=/models
 ```
-![server](/img/server.png)
+![server](img/server.png)
 ## 4. Starting a GUI for sending Inference Request
 In this part, we will be sending inference request to the Triton Inference Server and retrieve the results. First we will run the sdk container of triton on a separate terminal keeping the Triton Inference Server Running
 ```bash
